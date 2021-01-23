@@ -1,1 +1,1 @@
-<p>soon or i can just take arcader's stock code</p>
+<meta http-equiv="refresh" content="0; url=/stocks/">
