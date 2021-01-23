@@ -32,7 +32,7 @@ $friendrequests = $mysqli->query("SELECT * FROM friend_requests WHERE request = 
 <?php 
 while($row = $friendrequests->fetch_assoc()) { 
 ?>
-<?php echo $row["user"]; ?> <a href="accept_friend.php?user=<?php echo $row["user"]; ?>">Accept</a> | <a href="deny_friend.php?user=<?php echo $row["user"]; ?>">Deny</a>
+<?php echo $row["user"]; ?> <a href="accept_friend.php?user=<?php echo $row["user"]; ?>">Accept</a> | <a href="deny_friend.php?user=<?php echo $row["user"]; ?>">Deny</a><br>
 <?php
 }
 ?>
