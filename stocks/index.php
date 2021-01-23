@@ -7,7 +7,7 @@ $tax = 0.04;
 ?>
 <html>
 	<head>
-		<title>your moms - stocks</title>
+		<title>PenizNet Stocks</title>
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 		<link rel="stylesheet" href="../style.css">
         <script>function onLogin(token){ document.getElementById('submitform').submit(); }</script>
@@ -48,6 +48,7 @@ $tax = 0.04;
         }
 		</style>
 	</head>
+	<?php include('/header.php') ?>
 	<center>
 	    <table border="1">
 <tr>
@@ -102,6 +103,7 @@ $tax = 0.04;
 		</tr>
 </td>
 </table>
+		<?php include('footer.php') ?>
 </center>
 	</body>
 </html>
