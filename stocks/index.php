@@ -7,7 +7,7 @@ $tax = 0.04;
 ?>
 <html>
 	<head>
-		<title>PenizNet Stocks</title>
+		<title>your moms - stocks</title>
 		<script src='https://www.google.com/recaptcha/api.js' async defer></script>
 		<link rel="stylesheet" href="../style.css">
         <script>function onLogin(token){ document.getElementById('submitform').submit(); }</script>
@@ -48,15 +48,18 @@ $tax = 0.04;
         }
 		</style>
 	</head>
-	<?php include('/header.php') ?>
 	<center>
+    <?php include('../header.php') ?>
+    <br>
 	    <table border="1">
 <tr>
 <td>
-            <h1>stocks</h1>
-            welcome to the (totally) very predictable virtual stock market where you can dump money and lose hundreds of bobux<br><small>DO NOT TAKE THIS SERIOUSLY!!!!</small>
-            <p>Stock War I</p>
+            <h1>PenizNet Stock Market</h1>
+            welcome to the (totally) <b>very predictable</b> virtual stock market where you can dump money and lose hundreds of bobux<br><small>DO NOT TAKE THIS SERIOUSLY!!!!</small>
+            <small>i might be tired of stock name requests but ill keep trying</small><br>
+			<small>chief bazing big</small>
 			<br><br>
+            <center>
             <form method="get" action="buy.php">
 				<fieldset>
 					Buy: <input required placeholder="Stock Name" type="text" name="name"> <input required placeholder="Amount" type="number" name="amount"> <input type="submit" value="Buy">
@@ -96,14 +99,15 @@ $tax = 0.04;
             ?>
 			</td>
 					</tr>
+                </center>
 </table>
             <hr>
 			<div id="piechart" style="width: 1200px; height: 500px;"></div>
-            <address>powered by the arcader engine, modified
 		</tr>
 </td>
 </table>
-		<?php include('footer.php') ?>
+<br>
+<?php include('../footer.php') ?>
 </center>
 	</body>
 </html>
