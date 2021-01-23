@@ -1,0 +1,24 @@
+table {
+  border-collapse:collapse;
+  background-color: whitesmoke;
+}
+
+td, th, tr {
+  padding: 5px;
+}
+
+body {
+  font-family: Arial;
+  background-color: lightskyblue;
+  background-image: url(https://cdn.discordapp.com/attachments/777384344523505697/802320276058144768/stripes.png);
+}
+
+a {
+  color: #404040;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
